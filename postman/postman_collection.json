@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "fd4cc4c8-48bd-43fe-bdfe-93adbe82174a",
+		"name": "rick_morty_back",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getEpisodeLocations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ys9a1rlgc8.execute-api.us-east-1.amazonaws.com/dev/chipax-challenge/episode-locations",
+					"protocol": "https",
+					"host": [
+						"ys9a1rlgc8",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"chipax-challenge",
+						"episode-locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEpisodeLocations/{page}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ys9a1rlgc8.execute-api.us-east-1.amazonaws.com/dev/chipax-challenge/episode-locations/3",
+					"protocol": "https",
+					"host": [
+						"ys9a1rlgc8",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"chipax-challenge",
+						"episode-locations",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
