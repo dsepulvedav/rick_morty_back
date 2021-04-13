@@ -1,7 +1,8 @@
 'use strict'
 
 const RickMortyApi = require('rickmortyapi')
-const { getUniqueCharacters, getLocationsInEpisode } = require('./utils/utils')
+const { getUniqueCharacters } = require('./utils/utils')
+const { getLocationsInEpisode } = require('./usecases/locations')
 const { generateResponse, fixBody } = require('./utils/responses')
 
 module.exports.getEpisodeLocations = async (event) => {
