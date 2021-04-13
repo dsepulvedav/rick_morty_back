@@ -1,6 +1,8 @@
 function getUniqueCharacters (episodeList) {
   const characterList = []
 
+  if (!episodeList || !episodeList.length) return characterList
+
   episodeList.forEach((episode) => {
     characterList.push(...episode.characters)
   })
